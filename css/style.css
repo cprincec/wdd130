@@ -1,0 +1,29 @@
+h1, h2, h3, h4  {
+    font-family: "Lobster", serif;
+    font-size: 1.5em;
+}
+p   {
+    font-family: "Verdana", sans-serif;
+}
+
+.primary {
+    background-color: #363020;
+    margin: 20px;
+    color: white;
+}
+.secondary {
+    background-color: #FFD046;
+    margin: 20px;
+    color: black;
+}
+.tertiary {
+    background-color: #FFF1D1;
+    margin: 20px;
+    color: black;
+}
+.colors {
+    width: 100%;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+}
