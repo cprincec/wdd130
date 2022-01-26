@@ -7,19 +7,19 @@ p   {
 }
 
 .primary {
+    background-color: #FFF1D1;
+    margin: 20px;
+    color: black;
+}
+.secondary {
     background-color: #363020;
     margin: 20px;
     color: white;
 }
-.secondary {
-    background-color: #FFD046;
-    margin: 20px;
-    color: black;
-}
 .tertiary {
-    background-color: #FFF1D1;
+    background-color: #FFA500;
     margin: 20px;
-    color: black;
+    color: white;
 }
 .colors {
     width: 100%;
