@@ -28,6 +28,7 @@ h2  {
     padding: 10px;
     border: 3px solid orange;
     text-align: center;
+    border-radius: 25px 25px;
 }
 
 p   {
@@ -45,6 +46,7 @@ header, footer  {
 
 footer  {
     margin: 50px 0 20px 0;
+    padding: 10px;
 }
 
 
@@ -68,6 +70,6 @@ a   {
     color: white;
 }
 
-.home_img_right {
-    border: 50px solid orange;
+.home-img-right, .home-img-left {
+    border-radius: 30px 30px;
 }
