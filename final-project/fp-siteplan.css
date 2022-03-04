@@ -27,3 +27,13 @@ body   {
     border: 2px solid black;
     text-align: center;
 }
+
+.map    {
+    display: inline-block;
+    background-color: #146CD2;
+    margin: 40px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
