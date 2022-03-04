@@ -4,13 +4,10 @@ body    {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 *   {
     margin: 0;
     padding: 0;
 }
-=======
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
 
 h1, h2, h3    {
     color: white;
@@ -40,10 +37,6 @@ p   {
 
 header, footer  {
     background-color: #363020;
-<<<<<<< HEAD
-=======
-    padding: 0;
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
     display: flex;
     align-items: center;
 }
@@ -52,18 +45,16 @@ header, footer  {
     border-radius: 25px 10px;
     margin: 5px 5px 0 5px;
 }
-<<<<<<< HEAD
-
 nav     {
     flex: 1 1 auto;
     margin-left: 15px;
 }
 
-=======
+
 nav {
     flex: 1 1 auto;
 }
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
+
 nav ul  {
     display: flex;
     list-style: none;
@@ -74,12 +65,7 @@ nav ul  {
 header nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-<<<<<<< HEAD
-    flex: 1 1 100%;
-    text-align: center;
-=======
     flex: 1 1 auto;
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
 }
 
 nav ul li a:hover   {
@@ -105,14 +91,9 @@ header  {
 footer  {
     display: flex;
     margin: 20px 0 20px 0;
-<<<<<<< HEAD
-    padding: 10px 10px 5px 15px; 
-    justify-content: space-between; 
-=======
     padding: 10px 10px 5px 25px;  
     align-items: center;
     justify-content: space-between;
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
 }
 
 .yellow-div-line    {
@@ -201,12 +182,8 @@ a   {
 
 .home  {
     display: grid;
-<<<<<<< HEAD
-    column-gap: 3rem;    
-=======
     column-gap: 3rem;
     row-gap: 5px;  
->>>>>>> 89a65ee2a0db7d7170b50ef5d9d6c176959d103b
 }
 
 .home-heading-2, .home-paragraph-2   {
