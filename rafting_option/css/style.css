@@ -212,3 +212,33 @@ a   {
      max-width: 1000px;
      margin-top: 15px;
  }
+
+
+ .gallery   {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+     justify-items: center;
+ }
+
+ .img-1-left,  .img-1-right, .img-2-left, .img-2-right     {
+     position: relative;
+ }
+
+ .img-1-left h2, .img-1-right h2, .img-2-left h2, .img-2-right h2 {
+     position: absolute;
+     bottom: 45%;
+     left: 30%;
+     z-index: 1;
+ }
+
+ .img-1-left a, .img-1-right a, .img-2-left a, .img-2-right a {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 45%;
+}
+
+.img-1-left img,  .img-1-right img, .img-2-left img, .img-2-right img     {
+    opacity: 0.7;
+}
