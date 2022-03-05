@@ -250,10 +250,26 @@ a   {
     font-weight: 600;
 }
 
+.gallery-img a:hover    {
+    color: white;
+    font-size: 1.1em;
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+
 .img-1-left img,  .img-1-right img, .img-2-left img, .img-2-right img     {
     border-radius: 20px;
 }
 
+.section-grid   {
+    justify-self: center;
+}
+.section-grid img   {
+    float: left;
+    max-width: 400px;
+    margin: 0 10px 5px 0;
+}
 .space  {
     height: 7rem;
 }
