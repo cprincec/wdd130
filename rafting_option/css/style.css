@@ -33,7 +33,6 @@ p   {
     font-weight: 500; 
 }
 
-
 header, footer  {
     background-color: #363020;
     display: flex;
@@ -68,11 +67,17 @@ header nav ul li {
     flex: 1 1 auto;
 }
 
+nav a   {
+    padding: 17px 27px;
+}
 
 nav a:hover   {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     transition-duration: 0.5s;
+    border: 2px solid orange;
+    border-radius: 3px 1px;
+    padding: 10px 20px;
 }
 
 a   {
@@ -84,6 +89,12 @@ header  {
     top: 0;
     margin-top: 20px;
     z-index: 4;
+    justify-content: space-between;
+}
+
+header div  {
+    display: flex;
+    align-items: center;
 }
 
 footer  {
@@ -172,7 +183,6 @@ a   {
 
 .main-home  {
     display: grid;
-    row-gap: 4rem;
     margin: 5rem 0;
     max-width: 100%;
     justify-items: center;
@@ -180,8 +190,8 @@ a   {
 
 .home  {
     display: grid;
-    column-gap: 3rem;
-    row-gap: 5px;  
+    column-gap: 2.5rem; 
+    grid-template-rows: 80px 1fr;
 }
 
 .home-heading-2, .home-paragraph-2   {
@@ -207,8 +217,7 @@ a   {
  }
 
  .home-paragraph-3  {
-     max-width: 1000px;
-     margin-top: 15px;
+     max-width: 970px;
  }
 
 
@@ -305,3 +314,5 @@ a   {
 .rivers-h2  {
     font-size: 3rem;
 }
+
+.banner-container
