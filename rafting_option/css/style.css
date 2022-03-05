@@ -85,7 +85,7 @@ header  {
     position: sticky;
     top: 0;
     margin-top: 20px;
-    z-index: 1;
+    z-index: 4;
 }
 
 footer  {
@@ -230,15 +230,63 @@ a   {
      bottom: 45%;
      left: 30%;
      z-index: 1;
+     text-shadow: 2px 2px 2px black;
+     color: white;
+     font-size: 3rem;
  }
 
  .img-1-left a, .img-1-right a, .img-2-left a, .img-2-right a {
     position: absolute;
     z-index: 1;
     bottom: 10%;
-    left: 45%;
+    left: 40%;
+    background-color: #FFF1D1;
+    border: 2px solid #363020;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: large;
+    color: #363020;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .img-1-left img,  .img-1-right img, .img-2-left img, .img-2-right img     {
-    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.space  {
+    height: 7rem;
+}
+
+.dash   {
+    padding: 2px;
+    background-color: orange;
+}
+
+.main-home2  {
+    display: grid;
+    row-gap: 7rem;
+}
+
+.home2  {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.home2  h2 {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    line-height: 3rem;
+    width: 500px;
+    justify-self: center;
+    text-shadow: 1px #111;
+}
+
+.home2 p    {
+    max-width: 950px;
+    justify-self: center;
+}
+
+.rivers-h2  {
+    font-size: 3rem;
 }
