@@ -185,7 +185,7 @@ a   {
 
 .social img:hover {
     width: 60px;
-    padding: 2px;
+    padding: 3px;
     transition-duration: 0.5s;
     border: 3px solid orange;
 }
@@ -271,15 +271,12 @@ a   {
     border: 2px solid #363020;
     border-radius: 10px;
     padding: 10px 20px;
-    font-size: large;
     color: #363020;
-    font-style: italic;
     font-weight: 600;
 }
 
 .gallery-img a:hover    {
     color: white;
-    /* font-size: 1.1em; */
     background-color: #363020;
     border: 2px solid white;
     transition-duration: 0.5s;
