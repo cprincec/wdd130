@@ -72,7 +72,7 @@ nav a   {
     padding: 17px 27px;
 }
 
-nav a:hover   {
+.active, nav a:hover   {
     color: white;
     font-size: 1.1rem;
     transition-duration: 0.5s;
@@ -84,6 +84,7 @@ nav a:hover   {
 a   {
     text-decoration: none;
 }
+
 
 header  {
     position: sticky;
@@ -337,4 +338,39 @@ a   {
 
 html {
     scroll-behavior: smooth;
+}
+
+input   {
+    display: none;
+}
+
+label {
+    display: block;    
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #6AAB95;
+    border-radius: 3px;
+    color: #FFF;
+    transition: ease .5s;
+}
+
+label:hover {
+    background: #4E8774;
+}
+
+.panel {
+    background: #E2E5F6;
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+input + label + .panel  {
+    display: none;
+}
+
+input:checked + label + .panel    {   
+    display: block
 }
