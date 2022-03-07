@@ -314,3 +314,7 @@ a   {
 .rivers-h2  {
     font-size: 3rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}
