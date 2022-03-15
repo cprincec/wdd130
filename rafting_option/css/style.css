@@ -356,9 +356,7 @@ label {
 
 label:hover {
     background-color: #363020;
-    color: white
-    
-    
+    color: white;
 }
 
 label::after    {
@@ -395,7 +393,6 @@ input:checked + label::after  {
     right: 27px;
     font-size: larger;
     font-weight: bold;
-    
 }
 
 .question-mark  {
