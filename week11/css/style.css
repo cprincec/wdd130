@@ -7,7 +7,7 @@
 body    {
     font-family: "georgia";
     font-size: 16px;
-    font-weight: 700;
+    
 }
 
 form    {
@@ -34,8 +34,12 @@ h2  {
 input, textarea {
     display: block;
     width: 328px;
-    max-width: 100%;
+    max-width: 328px;
     padding: 10px;
+}
+
+textarea    {
+    min-height: 100px;
 }
 
 button  {
@@ -54,4 +58,7 @@ button:hover    {
     border: 1px solid black;
 }
 
+input:valid {
+    border: 2px solid green;
+}
 
