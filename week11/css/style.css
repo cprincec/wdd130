@@ -39,6 +39,22 @@ input, textarea {
     padding: 10px;
 }
 
+.title input, .gender input  {
+    display: inline;
+    width: fit-content;
+}
+
+.space2      {
+    height: 10px;
+}
+.space3 {
+    height: 25px;
+}
+
+label   {
+    display: block;
+}
+
 textarea    {
     min-height: 100px;
 }
@@ -59,7 +75,5 @@ button:hover    {
     border: 1px solid black;
 }
 
-input:valid {
-    border: 2px solid green;
-}
+
 
