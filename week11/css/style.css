@@ -6,7 +6,7 @@
 
 body    {
     font-family: "georgia";
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
     align-content: center;
     justify-content: center;    
@@ -30,6 +30,13 @@ form    {
 h2  {
     font-size: large;
     font-style: italic;
+    text-align: center;
+    color: red;
+}
+
+h3  {
+    color:green;
+    font-size: medium;
     text-align: center;
 }
 input, textarea, select{
