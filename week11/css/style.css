@@ -1,0 +1,57 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: "georgia";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+form    {
+    background-color: rgb(212, 208, 208);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 420px;
+    position: relative;
+    top: 220px;
+    left: 440px;
+    border: 1px solid #363020;
+    border-radius: 20px;
+    padding: 45px 42px 30px 42px;
+    box-shadow: 1px 1px 8px 3px grey;
+    color: black;
+}
+
+h2  {
+    font-size: large;
+    font-style: italic;
+}
+input, textarea {
+    display: block;
+    width: 328px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+button  {
+    cursor: pointer;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+button:hover    {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
