@@ -39,7 +39,7 @@ h3  {
     font-size: medium;
     text-align: center;
 }
-input, textarea, select{
+input, textarea, select {
     display: block;
     width: 328px;
     max-width: 328px;
