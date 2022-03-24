@@ -47,8 +47,9 @@ input, textarea, select {
 }
 
 .title input, .gender input  {
-    display: inline;
-    width: fit-content;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
 }
 
 .space2      {
@@ -60,6 +61,7 @@ input, textarea, select {
 
 label   {
     display: block;
+    line-height: 19px
 }
 
 textarea    {
@@ -86,3 +88,4 @@ p, .dob, .msg, .email, .name, .number {
     font-weight: bold;
 }
 
+input(type="radio")
