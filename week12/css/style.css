@@ -5,7 +5,7 @@ body    {
     letter-spacing: 0.03em;
     line-height: 1.5rem;
     font-family: 'Varela Round', sans-serif;
-    font-size: large;
+    font-size: medium;
     box-sizing: border-box;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
     height: 98vh;
