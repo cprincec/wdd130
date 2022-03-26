@@ -9,6 +9,7 @@ body    {
     box-sizing: border-box;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
     height: 98vh;
+    text-align: justify;
 }
 
 .container  {
