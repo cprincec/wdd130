@@ -15,6 +15,8 @@ body    {
     width: 400px;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 0 0 1px;
+    position: relative;
 }
 
 .img_container  {
@@ -24,6 +26,39 @@ body    {
 .img    {
     width: 400px;
     border-radius: 9px 9px 0 0;
+    border-bottom: 7px solid rgb(32, 30, 30);
+}
+
+.empty  {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+    right: 25px;
+    transition: .7s ease-out;
+}
+
+.heart  {
+    font-size: 2.7rem;
+    color: white; 
+    transition: 1.2s ease-out;
+}
+
+.empty:hover    {
+    background-color: black;
+    box-shadow: 0 0 20px 5px red;
+    transform: scale(1.1);
+}
+
+.empty:hover .heart  {
+    color: red;
+    transform: scale(1.1);
+    transform: rotate(1turn);
 }
 
 .desc   {
@@ -36,31 +71,39 @@ h1  {
     font-weight: 900;
 }
 
-.info   {
+footer   {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-button  {
+a  {
     padding: 5px 50px;
     border-radius: 10px;
-    border: 1px solid rgb(197, 193, 193);
+    border: 1px solid rgb(178, 179, 155);
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
+    transition-duration: 1s;
+    text-decoration: none;
+    color: black;
+    background-color: #f0f6f7;
+}
+
+a:hover    {
+    background-color: black;
+    color: white;
 }
 
 .info2   {
     display: flex;
-    align-items: center;
-    font-size: 12px;
-    font-weight: 700;
     align-items: baseline;
     text-shadow: 3px 2px 5px #b3babe;
 }
 
 .info2 p    {
-    line-height: 10px;
+    line-height: .1rem;
     font-size: 17px;
     font-weight: 700;
+    font-variant: all-small-caps;
 }
