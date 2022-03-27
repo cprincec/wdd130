@@ -6,11 +6,11 @@ body    {
     line-height: 1.5rem;
     font-family: 'Varela Round', sans-serif;
     font-size: medium;
-    box-sizing: border-box;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
-    height: 98vh;
     text-align: justify;
-}
+    height: 100vh;
+    overflow: hidden;
+    }
 
 .container  {
     width: 400px;
@@ -31,8 +31,8 @@ body    {
 }
 
 .empty  {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: black;
     display: flex;
