@@ -6,10 +6,29 @@
 body    {
     font-family: 'Varela Round', 'Open Sans', sans-serif;
     font-size: 16px;
+    position: relative;
 }
+
+body::after {
+    content: "";
+    background-image: url("/wdd130/final-project/images/ophthalmology-background-with-doctor-ophthalmologist-check-vision-with-eye-test-chart-vector-hand-drawn-illustration-man-optometrist-glasses-drops-machines-eyesight-.webp");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
 
 h1, h2, h3  {
     font-weight: 900;
+}
+
+h3  {
+    font-size: x-large;
+    margin: 5px 0;
+    color: brown;
 }
 
 h2  {
@@ -54,7 +73,7 @@ header picture  {
 
 .nav-top a  {
     font-size: large;
-    color: red;
+    color: white;
     
 }
 
@@ -69,13 +88,22 @@ a   {
 }
 
 .nav-top ul li {
-    background-color: white;
+    background-color: red;
     padding: 10px 56px;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 
 .social-top img {
     width: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.social-top img:hover {
+    width: 30px;
+    padding: 2.5px;
+    transition-duration: 0.5s;
+    border: 2px solid red;
 }
 
 .social-top {
@@ -90,16 +118,39 @@ a   {
     position: relative;
 }
 
+.show   {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: 3rem;
+    color: #004a9e;
+    text-shadow: 3px 3px white;
+}
+
 .call-to-action     {
-    background-color: white;
-    border: 2px solid red;
+    background-color: red;
+    border: 2px solid white;
     border-radius: 5% 25%;
-    color: red;
+    color: white;
     padding: 15px 30px;
     font-size: 30px;
     position: absolute;
-    bottom: 30%;
-    left: 15%;
+    top: 13%;
+    left: 45%;
+}
+
+.call-to-action:hover   {
+    background-color: #004a9e;
+    opacity: 0.9;
+    color: red;
+}
+
+.line-0 {
+    background-color: #004a9e;
+    border: 1px solid #FFF1D1;
+    height: 1px; 
+    padding: 2px;
+    margin: 2px;
 }
 
 .line-1   {
@@ -114,6 +165,8 @@ a   {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    background-color: #d1ebfc;
+    padding: 50px 0;
 }
 
 .motto-mission-vision .vision, .mission, .motto {
@@ -145,9 +198,9 @@ a   {
 }
 
 .message  {
-    max-width: 90%;
-    position: relative;
-    left: 5%;
+    background-color: rgb(255, 242, 244);
+    margin: 0 30px;
+    padding: 50px 5px;
 }
 
 .message p     {   
@@ -160,6 +213,8 @@ a   {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #d1ebfc;
+    padding: 50px 0;
 }
 
 .principal  {
@@ -170,29 +225,69 @@ a   {
     width: 250px;
 }
 
+.teachers   {
+    display: flex;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    column-gap: 2rem;
+    overflow: hidden;
+    background-color: #d1ebfc;
+    padding: 50px 0;
+}
+
+.teacher img   {
+    width: 250px;
+}
+
+.teachers  {
+    position: relative;
+}
+
+.arrow  {
+    position: absolute;
+    font-size: 3rem;
+    left: 95%;
+    top: 40%;
+    cursor: pointer;
+    color: #004a9e;
+}
+
 .req-apply  {
     display: flex;
     justify-content: center;
 }
 
 .req    {
-    background-color: #004a9e;
-    padding: 20px 30px;
+    background-color: #248af7;
+    padding: 15px 30px;
     color: white;
+    align-self: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.req:hover    {
+    background-color:brown;
 }
 
 .apply  {
     background-color: red;
-    padding: 20px 30px;
+    padding: 10px 50px;
     color: white;
-    margin: 0 0 0 20rem;
-    width: 100px;
+    margin: 0 0 0 10rem;
     text-align: center;
     font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.apply:hover    {
+    background-color: #004a9e;
 }
 
 footer  {
     background-color: #004a9e;
+    margin-bottom: 10px;
 }
 
 .foot   {
@@ -202,7 +297,7 @@ footer  {
 
 .foot-info  {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 20px 10px 20px;
     align-items: center;
 }
@@ -235,14 +330,22 @@ footer  {
 
 .address-para   {
     color: #FFF1D1;
-    font-size: larger;
-    text-align: left; 
+    font-size: small;
+    text-align: center; 
     font-family: 'Varela Round', 'Open Sans', sans-serif;
     font-size: 1rem;
+    font-weight: 100;
 }
 
 .visit  {
     margin: 7px;
+    text-align: center;
+}
+
+.foot h3  {
+    font-size: medium;
+    color: red;
+    font-weight: 100;
 }
 
 .nav-down   {
@@ -260,9 +363,20 @@ footer  {
 
 .copyright  {
     font-size: larger;
-    color: #FFF1D1;
+    color: red ;
+    font-weight: bold;
 }
 
 .social img {
     width: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.social img:hover {
+    width: 38px;
+    padding: 3.5px;
+    transition-duration: 0.5s;
+    border: 2px solid red;
+    
 }
