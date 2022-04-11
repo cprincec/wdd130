@@ -28,7 +28,7 @@ h1, h2, h3  {
 h3  {
     font-size: x-large;
     margin: 5px 0;
-    color: brown;
+    color: red;
 }
 
 h2  {
@@ -67,14 +67,24 @@ header picture  {
 
 .nav-top    {
     grid-column: 2/3;
+    grid-row: 2/3;
     max-width: 100%;
-    align-self: end;
+    align-self: center;
+    
 }
 
 .nav-top a  {
     font-size: large;
     color: white;
-    
+    background-color: red;
+    padding: 10px 56px;
+    border: 1px solid white;
+}
+
+.nav-top a:hover    {
+    background-color: #004a9e;
+    color: white;
+    font-weight: bolder;
 }
 
 a   {
@@ -87,11 +97,6 @@ a   {
     list-style: none;
 }
 
-.nav-top ul li {
-    background-color: red;
-    padding: 10px 56px;
-    border: 1px solid white;
-}
 
 .social-top img {
     width: 35px;
@@ -165,8 +170,9 @@ a   {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    background-color: #d1ebfc;
+    background-color: #004a9e;
     padding: 50px 0;
+    color: white;
 }
 
 .motto-mission-vision .vision, .mission, .motto {
@@ -190,7 +196,7 @@ a   {
 
 .director-image  {  
     float: left;
-    margin: 10px;
+    margin: 10px 20px -5px 10px;
 }
 
 .director-image img {
@@ -198,13 +204,15 @@ a   {
 }
 
 .message  {
-    background-color: rgb(255, 242, 244);
+    background-color: #d1e6ff;
     margin: 0 30px;
-    padding: 50px 5px;
+    padding: 20px 5px;
+    line-height: 1.5rem;
+    
 }
 
 .message p     {   
-    padding: 10px 0;
+    padding: 10px 10px;
     font-size: large;
 }
 
@@ -213,8 +221,9 @@ a   {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #d1ebfc;
+    background-color: #004a9e;
     padding: 50px 0;
+    color: white;
 }
 
 .principal  {
@@ -227,13 +236,12 @@ a   {
 
 .teachers   {
     display: flex;
-    justify-items: center;
-    position: relative;
+    justify-content: center;
     text-align: center;
     column-gap: 2rem;
-    overflow: hidden;
-    background-color: #d1ebfc;
+    background-color: #004a9e;
     padding: 50px 0;
+    color: white;
 }
 
 .teacher img   {
@@ -244,13 +252,15 @@ a   {
     position: relative;
 }
 
-.arrow  {
-    position: absolute;
-    font-size: 3rem;
-    left: 95%;
-    top: 40%;
-    cursor: pointer;
-    color: #004a9e;
+.director-image img, .staffs img,   .teachers img   {
+    border: 2px solid #004a9e;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 1px red;
+    margin-bottom: 10px;
+} 
+
+.staffs img,   .teachers img    {
+    margin-bottom: 20px;
 }
 
 .req-apply  {
@@ -273,12 +283,13 @@ a   {
 
 .apply  {
     background-color: red;
-    padding: 10px 50px;
+    padding: 12px 80px;
     color: white;
     margin: 0 0 0 10rem;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 20px;
+    align-self: center;
 }
 
 .apply:hover    {
@@ -288,34 +299,41 @@ a   {
 footer  {
     background-color: #004a9e;
     margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .foot   {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.foot-info  {
-    display: flex;
     justify-content: space-around;
-    padding: 20px 20px 10px 20px;
-    align-items: center;
 }
-
-
 
 .nav-down ul {
     list-style: none;
 }
 
 .nav-down li    {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-down a    {
+    flex: 1 1 auto;
     background-color: white;
     margin: 5px;
     text-align: center;
-    padding: 7px 15px;
+    padding: 7px 100px;
     font-weight: bold;
     border-radius: 1px 10px;
 }
+
+.nav-down a:hover   {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+
 
 .address    {
     text-align: center;
@@ -338,7 +356,7 @@ footer  {
 }
 
 .visit  {
-    margin: 7px;
+    margin: 20px 7px 5px 7px;
     text-align: center;
 }
 
@@ -365,6 +383,8 @@ footer  {
     font-size: larger;
     color: red ;
     font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .social img {
@@ -373,10 +393,24 @@ footer  {
     border: 2px solid white;
 }
 
+.social {
+    background-color: white;
+    padding: 11px 25px;
+    font-weight: bold;
+    border-radius: 1px 30px;  
+    margin-top: -14px;
+}
+
 .social img:hover {
     width: 38px;
     padding: 3.5px;
     transition-duration: 0.5s;
-    border: 2px solid red;
-    
+    border: 2px solid red;   
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
