@@ -175,6 +175,11 @@ a   {
     color: white;
 }
 
+.motto img  {
+    width: 170px;
+    margin: -20px 0;
+}
+
 .motto-mission-vision .vision, .mission, .motto {
     max-width: 300px;
 }
@@ -196,17 +201,22 @@ a   {
 
 .director-image  {  
     float: left;
-    margin: 10px 20px -5px 10px;
+    
+    
 }
 
 .director-image img {
     width: 200px;
+    border: 2px solid #004a9e;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 1px #004a9e;
+    margin: 10px 35px 0 -15px
 }
 
 .message  {
     background-color: #d1e6ff;
     margin: 0 30px;
-    padding: 20px 5px;
+    padding: 20px 10px 10px 35px;
     line-height: 1.5rem;
     
 }
@@ -252,10 +262,10 @@ a   {
     position: relative;
 }
 
-.director-image img, .staffs img,   .teachers img   {
+.staffs img,   .teachers img   {
     border: 2px solid #004a9e;
     border-radius: 30px;
-    box-shadow: 1px 1px 15px 1px red;
+    box-shadow: 1px 1px 15px 1px white;
     margin-bottom: 10px;
 } 
 
