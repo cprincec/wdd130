@@ -46,6 +46,9 @@ header  {
     grid-template-columns: 160px 1fr;
     background-color: #004a9e;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 header picture img  {
@@ -70,6 +73,7 @@ header picture  {
     grid-row: 2/3;
     max-width: 100%;
     align-self: center;
+    margin-bottom: 3px;
     
 }
 
@@ -279,16 +283,18 @@ a   {
 }
 
 .req    {
-    background-color: #248af7;
     padding: 15px 30px;
     color: white;
     align-self: center;
     border-radius: 20px;
     font-size: 1.2rem;
+    background: linear-gradient(to left, #248af7 50%, brown 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
 }
 
 .req:hover    {
-    background-color:brown;
+    background-position: left;
 }
 
 .apply  {
@@ -300,10 +306,14 @@ a   {
     font-size: 1.5rem;
     border-radius: 20px;
     align-self: center;
+    background: linear-gradient(to right, red 50%, #004a9e 50%) left;
+    background-size: 200%;
+    transition: .5s ease-out;
 }
 
+
 .apply:hover    {
-    background-color: #004a9e;
+    background-position: right;
 }
 
 footer  {
@@ -422,5 +432,87 @@ footer  {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.requirement-form  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.requirement-form h3    {
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+}
+
+.requirement    {
+    background-color: #004a9e;
+    color: white;
+    padding: 25px;
+    line-height: 1.5rem;
+}
+
+.requirement li    {
+    margin-left: 20px;
+}
+
+.form   {
+    background-color: #f7f0df;
+    padding: 25px;   
+}
+
+form    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-right: 20px;
+}
+
+input, select {
+    padding: 10px;
+    font-size: medium;
+    width: 90%;
+}
+
+form div  {
+    display: block;
+    text-justify: distribute;
+}
+
+.submit     {
+    text-align: center;
+    padding: 12px 35px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 10%;
+    left: 38%;
+    font-size: 1.1rem;
+}  
+
+.submit:hover   {
+    background-color: #004a9e;
+    color: white;
+}
+
+.space2     {
+    height: 20px;
+}
+
+.banner2 img    {
+    width: 100%;
+    height: 400px;
+}
+
+.page   {
+    padding: 50px;
+    background-color: aliceblue;
+    line-height: 1.5rem;
+}
+
+.page h3    {
+    font-size: large;
+    font-weight: bold;
 }
