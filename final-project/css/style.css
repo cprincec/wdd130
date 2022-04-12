@@ -477,7 +477,6 @@ input, select {
 
 form div  {
     display: block;
-    text-justify: distribute;
 }
 
 .submit     {
