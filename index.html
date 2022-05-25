@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 130 - Home page</title>
+    <style>
+      body {
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+      }
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WDD 130 - Home page</title>
-    </head>
+      h2    {
+          color: rgb(177, 177, 233);
+      }
+      a {
+        text-decoration: none;
+        color: bisque;
+        font-family: "Open Sans", sans-serif;
+      }
 
-    <body>
-        <h1>Prince Chukwu</h1>
-        <picture>
-            <img src="images/ProfilePhoto.jpg" alt="Profile Photo" width="200px">
-        </picture>
-        <p><strong>Welcome</strong> to my <em>Portfolio</em>.</p>
+      div   {
+          display: grid;
+          justify-content: center;
+      }
 
-        <h2>Portfolio</h2>
-        <ul>
-            <li><a href="siteplan.html">White Water Rafting Site Plan</a></li>
-            <li><a href="week3/">Week 3 - Rafting Site Beginning</a></li>
-            <li><a href="week4/">Week 4 - Rafting Site Continues</a></li>
-            <li><a href="rafting/index.html">Rafting Site</a></li>
-            <li><a href="rafting_option/index.html">Rafting Site 2</a></li>
-            <li><a href="week6/pos-start.html">Layout Activity</a></li>
-            <li><a href="final-project/fp-siteplan.html">Final Project Site plan</a></li>
-            <li><a href="week11/">First HTML form</a></li>
-            <li><a href="week12/">Media Card</a></li>
-            <li><a href="final-project/index.html">Final Project</a></li>
-        </ul>
-    </body> 
+      ul {
+        width: 320px;
+      }
 
+      li {
+        list-style: none;
+        font-size: 17px;
+        padding: 2px 0;
+      }
+
+      li:hover a {
+        color: black;
+        font-weight: bold; 
+      }
+
+      li:hover  {
+          background-color: white;
+          border: 1px solid brown;
+          padding: 1px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Prince Chukwu</h1>
+    <picture>
+      <img src="images/ProfilePhoto.jpg" alt="Profile Photo" width="200px" />
+    </picture>
+    <p><strong>Welcome</strong> to my <em>Portfolio</em>.</p>
+
+    <h2>Portfolio</h2>
+    <div>
+      <ul>
+        <li><a href="siteplan.html">White Water Rafting Site Plan</a></li>
+        <li><a href="week3/">Week 3 - Rafting Site Beginning</a></li>
+        <li><a href="week4/">Week 4 - Rafting Site Continues</a></li>
+        <li><a href="rafting/index.html">Rafting Site</a></li>
+        <li><a href="rafting_option/index.html">Rafting Site 2</a></li>
+        <li><a href="week6/pos-start.html">Layout Activity</a></li>
+        <li>
+          <a href="final-project/fp-siteplan.html">Final Project Site plan</a>
+        </li>
+        <li><a href="week11/">First HTML form</a></li>
+        <li><a href="week12/">Media Card</a></li>
+        <li><a href="final-project/index.html">Final Project</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
