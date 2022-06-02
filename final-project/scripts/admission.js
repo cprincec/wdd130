@@ -1,0 +1,1 @@
+document.querySelector(".submit").addEventListener("click", function () {document.querySelector("form").submit()})

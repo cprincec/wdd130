@@ -87,12 +87,12 @@
                 <form action="#">
                     <div class="lname-div">
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname">
+                        <input type="text" id="lname" name="lastname" required>
                     </div>
 
                     <div class="fname-div">
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname">
+                        <input type="text" id="fname" name="firstname" required>
                     </div>
 
                     <div class="mname-div">
@@ -102,12 +102,12 @@
 
                     <div class="dob-div">
                         <label for="dob">Date of Birth:</label>
-                        <input type="date" id="dob" name="dob">
+                        <input type="date" id="dob" name="dob" required>
                     </div>
 
                     <div class="gender-div">
                         <label for="gender">Gender</label>
-                        <select id="gender" name="gender">
+                        <select id="gender" name="gender" required>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                         </select>
@@ -115,27 +115,27 @@
 
                     <div class="raddress-div">
                         <label for="raddress">Residential Address: </label>
-                        <input type="text" id="raddress" name="raddress">
+                        <input type="text" id="raddress" name="raddress" required>
                     </div>
 
                     <div class="nation-div">
                         <label for="nationality">Nationality</label>
-                        <input type="text" id="nationality" name="nationality">
+                        <input type="text" id="nationality" name="nationality" required>
                     </div>
 
                     <div class="sorigin-div">
                         <label for="sorigin">State of Origin</label>
-                        <input type="text" id="sorigin" name="sorigin">
+                        <input type="text" id="sorigin" name="sorigin" required>
                     </div>
 
                     <div class="lga-div">
                         <label for="lga">LGA</label>
-                        <input type="text" id="lga" name="lga">
+                        <input type="text" id="lga" name="lga" required>
                     </div>
 
                     <div class="class-div">
                         <label for="class">Class of Entry</label>
-                        <select id="class" name="class">
+                        <select id="class" name="class" required>
                             <option value="jss1">JSS 1</option>
                             <option value="jss2">JSS 2</option>
                             <option value="jss3">JSS 3</option>
@@ -144,8 +144,8 @@
                             <option value="ss3">SS 3</option>
                         </select>
                     </div>
+                    <div class="submit-container"><button class="submit" type="submit">Submit Form</button></div>
                 </form>
-                <a class="submit" href="index.html" type="submit">Submit Form</a>
             </div>
         </div>
 
@@ -195,6 +195,7 @@
         <p class="copyright">&copy; 2022 - Prince Chukwu - WDD130 Final Project</p>
 
     </footer>
+    <script src="./scripts/admission.js"></script>
 </body>
 
 </html>
