@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 body    {
     font-family: 'Varela Round', 'Open Sans', sans-serif;
     font-size: 16px;
